@@ -7,16 +7,14 @@ require "govuk_tasklist_helpers/version"
 Gem::Specification.new do |s|
   s.name        = "govuk_tasklist_helpers"
   s.version     = GovukTasklistHelpers::VERSION
-  s.authors     = ["David Silva"]
-  s.email       = ["david.silva@digital.cabinet-office.gov.uk"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of GovukTasklistHelpers."
-  s.description = "TODO: Description of GovukTasklistHelpers."
+  s.authors     = ["GOV.UK Dev"]
+  s.email       = ["govuk-dev@digital.cabinet-office.gov.uk"]
+  s.homepage    = "https://github.com/alphagov/govuk_tasklist_helpers"
+  s.summary     = "GovukTasklistHelpers."
+  s.description = "GovukTasklistHelpers."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.4"
-
-  s.add_development_dependency "sqlite3"
+  s.add_dependency "rails", "~> 5.1.3"
 end
